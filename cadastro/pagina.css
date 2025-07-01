@@ -3,20 +3,66 @@ body{
 
 }
 
-#main-cadastro{
+.main-cadastro{
     width: 100vw;
     height: 100vh;
-    background-color: rgb(241, 240, 242);
+    background-color: rgba(226, 220, 220, 0.583);
     display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+#h1{
+   color: rgba(158, 158, 158, 0.85);
+}  
+
+.card-cadastro{
+    width: 350px;
+    height: 330px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    }
+
+.label-input {
+    font-weight:400;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: center;
 }
 
-#card-cadastro{
-    width: 400px;
-    height: 450px;
-    Background-color: rgb(233, 233, 233);
-    text-align: center;
+.label-input >  input{
+    padding: 4px;
+    width: 320px;
+    margin: 5px;
+    outline: none;
+    border-radius: 3px;
+    border: solid 1px black;
 }
 
+.g{
+   margin-top: 10px;
+   outline: none;
+}
+
+#btn-c{
+    margin: 13px;
+    cursor: pointer;
+    padding: 5px;
+    color: #ffffff;
+    background-color: rgb(1, 86, 1);
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+#btn-c:hover{
+     background-color: rgb(9, 164, 9);
+}
 
