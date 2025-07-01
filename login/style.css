@@ -1,0 +1,118 @@
+body{
+   margin: 0;
+}
+
+#main-login{
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-color: rgb(230, 228, 228);
+}
+
+#card-login{
+   width: 370px;
+   height: 290px;
+   padding: 40px 40px;
+   border-radius: 5px;
+   background: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+#login{
+   color: rgba(28, 154, 182, 0.697);
+   margin: 0;
+}
+
+#linha{
+   color: blueviolet;
+   background-color: blue;
+}
+
+.labal-input {
+   outline: none;
+   height: 40px;
+   padding: 10px;
+   color: rgb(0, 0, 0);
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+.labal-input > input {
+   width: 380px;
+   margin: 5px;
+   padding: 5px;
+   color: rgb(0, 0, 0);
+   outline: none;
+   border-radius: 4px;
+   border: solid 2px rgba(20, 20, 20, 0.414);
+}
+
+.box {
+  width: 106%;
+  margin: 10px;
+}
+
+#bt{
+   width: 106%;
+   margin: 10px;
+   padding: 8px;
+   border-radius: 5px;
+   background-color: rgba(28, 154, 182, 0.697);
+   color: white;
+   font-weight: 400;
+   border: none;
+   cursor: pointer;
+}
+
+#bt:hover{
+   background-color:  rgba(34, 114, 130, 0.697);;
+}
+
+#conta{
+   
+   
+   padding: 13px;
+   background-color: rgba(187, 218, 249, 0.439);
+   
+}
+
+#c{
+background-color: rgb(255, 255, 255);
+border: solid 2px rgba(251, 255, 0, 0.844);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
