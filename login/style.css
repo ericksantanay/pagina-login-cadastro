@@ -2,63 +2,59 @@ body{
    margin: 0;
 }
 
-#main-login{
+.main-login{
    width: 100vw;
    height: 100vh;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
    background-color: rgb(230, 228, 228);
-}
-
-#card-login{
-   width: 370px;
-   height: 290px;
-   padding: 40px 40px;
-   border-radius: 5px;
-   background: white;
    display: flex;
-   flex-direction: column;
-   /*align-items: center;*/
    justify-content: center;
+   align-items: center;
+   flex-direction: column;
 }
 
-#login{
+.card-login {
+   width: 450px;
+   height: 370px;
+   padding: 0px;
+   background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+    /*align-items: center; */
+   
+}
+
+.card-login > h1{
    text-align: center;
    color: rgba(28, 154, 182, 0.697);
-   margin: 0;
+   margin: 0px;
+   
 }
 
-
-
-.labal-input {
-   outline: none;
-   padding: 5px;
-   color: rgb(0, 0, 0);
+.input-labal{
+   margin-left: auto;
+   margin-right: auto;
    display: flex;
    flex-direction: column;
    align-items: flex-start;
-   margin-left: auto;
-   margin-right: auto;
+   justify-content: center;
+   padding: 5px;
+   
 }
 
-.labal-input > input {
-   width: 370px;
-   
-   padding: 5px;
-   color: rgb(0, 0, 0);
+.input-labal > input{
+   margin: 5px;
+   color: #000000;
    outline: none;
+   width: 400px;
+   padding: 5px;
    border-radius: 4px;
    border: solid 2px rgba(20, 20, 20, 0.414);
 }
 
-.box {
-  margin: 10px;
-}
-
-#bt{
-   width: 100%;
+#bt-l{
+   width: 410px;
    margin: 10px;
    padding: 8px;
    border-radius: 5px;
@@ -69,47 +65,23 @@ body{
    cursor: pointer;
 }
 
-#bt:hover{
-   background-color:  rgba(34, 114, 130, 0.697);;
+#bt-l:hover{
+   background-color: rgba(12, 177, 214, 0.8);
 }
 
 #conta{
-   
-   padding: 13px;
+   margin: 5px;
+   position: relative;
+   left: 160px;
+   padding: 15px;
    background-color: rgba(187, 218, 249, 0.439);
-   width: 400px;
 }
 
-#c{
-background-color: rgb(255, 255, 255);
-border: solid 2px rgba(251, 255, 0, 0.844);
+#cadastre-se{
+   text-decoration: none;
+   background-color: rgb(255, 255, 255);
+   border: solid 2px rgba(251, 255, 0, 0.844);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
