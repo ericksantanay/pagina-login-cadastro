@@ -7,54 +7,80 @@ body{
    height: 100vh;
    background-color: rgb(230, 228, 228);
    display: flex;
-   align-items: center;
    justify-content: center;
-}
-
-.card-login{
-   width: 370px;
-   height: 290px;
-   padding: 40px 40px;
-   background-color: white;
-   display: flex;
    align-items: center;
-   justify-content: center;
    flex-direction: column;
 }
 
-.card-login  >h1{
- color:  rgba(28, 154, 182, 0.697);
- margin: 4px;
+.card-login {
+   width: 450px;
+   height: 370px;
+   padding: 0px;
+   background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+    /*align-items: center; */
+   
+}
+
+.card-login > h1{
+   text-align: center;
+   color: rgba(28, 154, 182, 0.697);
+   margin: 0px;
+   
 }
 
 .input-labal{
-   margin: 5px;
+   margin-left: auto;
+   margin-right: auto;
    display: flex;
+   flex-direction: column;
    align-items: flex-start;
    justify-content: center;
-   flex-direction: column;
+   padding: 5px;
+   
 }
 
-.input-labal > input  {
-  width: 380px;
-  padding: 5px;
-  border-radius: 3px;
-  color: #000;
-  outline: none;
+.input-labal > input{
+   margin: 5px;
+   color: #000000;
+   outline: none;
+   width: 400px;
+   padding: 5px;
    border-radius: 4px;
    border: solid 2px rgba(20, 20, 20, 0.414);
 }
 
-#manter-logado{
-   
+#bt-l{
+   width: 410px;
+   margin: 10px;
+   padding: 8px;
+   border-radius: 5px;
+   background-color: rgba(28, 154, 182, 0.697);
+   color: white;
+   font-weight: 400;
+   border: none;
+   cursor: pointer;
 }
 
+#bt-l:hover{
+   background-color: rgba(12, 177, 214, 0.8);
+}
 
+#conta{
+   width: 100%;
+   padding: 15px;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: rgba(187, 218, 249, 0.439);
+}
 
-
-
-
-
+#cadastre-se{
+   background-color: rgb(255, 255, 255);
+   border: solid 2px rgba(251, 255, 0, 0.844);
+}
 
 
 
