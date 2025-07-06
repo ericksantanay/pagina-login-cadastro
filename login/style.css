@@ -10,14 +10,15 @@ body{
    justify-content: center;
    align-items: center;
    flex-direction: column;
+   padding: 10px;
 }
 
 .card-login {
    width: 450px;
-   height: 370px;
-   padding: 0px;
+   height: auto;
    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
+   border-radius: 5px;
+   border: solid 2px #999;
    display: flex;
    justify-content: center;
    flex-direction: column;
@@ -26,8 +27,10 @@ body{
 .card-login > h1{
    text-align: center;
    color: rgba(28, 154, 182, 0.697);
-   margin: 0px;
-   
+   border-bottom: solid 2px #ccc;
+   margin-left:15px;
+   margin-right: 15px;
+   font-family: 'Times New Roman', Times, serif;
 }
 
 .input-labal{
@@ -51,6 +54,10 @@ body{
    border: solid 2px rgba(20, 20, 20, 0.414);
 }
 
+#manter-logado{
+   margin-left: 14px;
+}
+
 #bt-l{
    width: 410px;
    margin: 10px;
@@ -61,19 +68,19 @@ body{
    font-weight: 400;
    border: none;
    cursor: pointer;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 #bt-l:hover{
    background-color: rgba(12, 177, 214, 0.8);
 }
 
-#conta{
-   width: 255px;
-   margin: 5px;
-   position: relative;
-   left: 160px;
-   padding: 15px;
-   background-color: rgba(187, 218, 249, 0.439);
+#conta{    
+    padding: 10px ;
+    padding-left: 230px;
+    font-size: 14px;
+    background-color: rgb(218, 231, 235);
 }
 
 #cadastre-se{
